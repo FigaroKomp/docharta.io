@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+  
+  
+   <div id="wykres"> 
+   <h1>wykres funkcji kwadratowej o zadanym a b c </h1>
+  <p>Postać ogólna funkcji kwadratowej: y=ax2+bx+c</p>
+   <form id="form"> 
+    <label for="a">a </label><input type="number" name="a" id="a" value="1">
+    <label for="b">b </label><input type="number" name="b" id="b" value="2">
+    <label for="c">c </label><input type="number" name="c" id="c" value="3">
+    <div id="button">
+     <input type="submit" id="submit" value="Rysuj Wykres">
+     </div>
+   </form>
+   
+  
+   <canvas id="myChart"></canvas>
+   </div>
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
